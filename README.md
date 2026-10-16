@@ -1,25 +1,32 @@
-# RDTECH — Reza Dayhool's weblog
+# Reza Dayhool — RDTECH
 
-A static, dependency-free site for GitHub Pages. Home offers two categories; each opens a themed page containing its own resume and journal area. English content follows the supplied resumes and CODEX_RESUME_MEMORY.md. No fabricated blog posts or metrics are included.
+I am a Cybersecurity Assurance Engineer , with an academic background in telecommunications and research in photonics. My work connects two interests: understanding the security of software systems and exploring how light can be used in optical devices.
 
-## Preview
+## Cybersecurity
 
-From this directory run `python -m http.server 8000` and open http://localhost:8000. Or open index.html directly. The print button opens the browser print dialog, with a resume-focused print stylesheet.
+At Irancell, I work on web, API, and Android application security, engaging with applications during development and collaborating with developers on secure coding and vulnerability remediation. My experience includes Android reverse engineering with Smali bytecode and native libraries, attack-surface reconnaissance, and security investigations with development and SOC teams.
 
-## GitHub Pages
+Previously, at Bugdasht, I contributed to web and mobile penetration testing, bug-bounty vulnerability triage, reconnaissance tooling, and technical security content.
 
-Upload the contents of this folder to a repository (root level, including .github and .nojekyll). For a personal site, use rezadtech.github.io as the repository name; a project repository also works because local links are relative. In repository Settings → Pages choose GitHub Actions, then push to main or run the Deploy GitHub Pages workflow. No repository has been created and nothing has been published by this task.
+[Cybersecurity resume and journal](cybersecurity.html)
 
-## Editing
+## Photonic technologies
 
-- index.html: landing page.
-- cybersecurity.html: cybersecurity resume and journal.
-- photonics.html: optical research resume, publication, and journal.
-- assets/style.css: responsive themes and print layout.
-- assets/site.js: print action.
+I hold master's and bachelor's degrees in Telecommunication from Azad University, Shahre-Rey branch. My master's thesis focused on the design and simulation of all-optical switches to improve switching speed. My research interests include photonic crystals, all-optical switching, and optical simulation.
 
-To add a blog post, create an HTML page and link it from the appropriate journal section. Write only your own approved content; the current journal sections honestly indicate that no articles have been published here yet.
+I co-authored **“New method to improve bit-rate of all-optical logic gate based on 2D photonic crystal,”** published in *Optik*, volume 183, pages 591–594 (2019), with Alireza Maleki Javan.
 
-## Content review before publishing
+[Read the publication](https://www.sciencedirect.com/science/article/abs/pii/S0030402619302578)
 
-Review current employment and contact details. Fara Afrand dates were omitted because source resumes disagree. Research dates follow the supplied DOCX; cleanroom and simulation coursework follows the optics resume, without implying fabrication experience. Graduation dates and unconfirmed impact metrics were omitted. The public pages include your professional email and existing professional profile links, but omit your phone number. No resume-source files or private memory files are included.
+My earlier engineering experience includes UHF circuit design, AVR microcontroller programming, PCB manufacturing, and quality control.
+
+[Photonics resume and journal](photonics.html)
+
+## Connect
+
+- Based in Tehran, Iran
+- [Email](mailto:dayhoolengineering@gmail.com)
+- [GitHub](https://github.com/rezadtech)
+- [LinkedIn](https://www.linkedin.com/in/rezadayhool/)
+
+Website setup and publishing details are in [Instruction.md](Instruction.md).

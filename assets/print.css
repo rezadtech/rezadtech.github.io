@@ -1,0 +1,50 @@
+/* HR resume layout, based on Resume_2026.pdf. Screen themes stay unchanged. */
+.print-only{display:none}
+@page{size:A4;margin:16mm 18mm}
+@media print{
+ html{color-scheme:light!important;background:#fff!important}
+
+ body,body.photonics{--bg:#fff;--surface:#fff;--ink:#000;--muted:#222;--line:#888;--accent:#000;background:#fff!important;color:#000!important;font:10pt/1.25 "Liberation Serif",Georgia,"Times New Roman",serif}
+ header,footer,.skip,.sidebar,.actions,.top-art,#journal,main>.intro,.resume-section>.eyebrow{display:none!important}
+ .print-only{display:block!important}
+ main{max-width:none!important;margin:0!important;padding:0!important}
+ .resume-print-header{text-align:center;border-bottom:.6pt solid #000;padding:0 0 9pt;margin:0 0 13pt}
+ .resume-print-header h1{font:normal 25pt/1.15 "Liberation Serif",Georgia,"Times New Roman",serif!important;letter-spacing:0;margin:0 0 5pt}
+ .resume-print-header .resume-role{font-weight:bold;margin:0 0 5pt;font-size:11pt}
+ .resume-contact{max-width:none;margin:0;font-size:9pt;line-height:1.45}
+ .resume-summary{margin-bottom:12pt;padding-bottom:10pt;border-bottom:.5pt solid #888}
+ .resume-summary p{max-width:none;margin:5pt 0 0}
+ .layout{display:block!important;margin:0!important}
+ .resume-section{margin:0 0 9pt;padding:0}
+ h2{font:bold 15pt/1.2 "Liberation Serif",Georgia,"Times New Roman",serif;letter-spacing:0;margin:0 0 7pt;break-after:avoid}
+ h3{font:bold 10.5pt/1.3 "Liberation Serif",Georgia,"Times New Roman",serif;margin:7pt 0 3pt;break-after:avoid}
+ p{max-width:none;margin:3pt 0 6pt}
+ .entry{padding:0 0 6pt;border:0;break-inside:auto}
+ .entry:first-of-type{padding-top:0}
+ .entry h3{display:inline}
+ .entry>.meta{float:right;font:italic 9pt/1.4 "Liberation Serif",Georgia,"Times New Roman",serif;margin:0 0 0 8pt}
+ .entry>p:not(.meta){clear:both}
+ .entry ul{clear:both;font-size:10pt;line-height:1.25;margin:5pt 0 0;padding-left:15pt}
+ .entry li{margin:0 0 3pt;break-inside:avoid}
+ .entry::after{content:"";display:block;clear:both}
+ .meta,.muted{color:#222!important}
+ .paper{padding:0;margin:8pt 0 12pt;border:0;background:none;break-inside:avoid}
+ .paper>.eyebrow{font:italic 9pt "Liberation Serif",Georgia,"Times New Roman",serif;letter-spacing:0;color:#222}
+ .paper a{font-size:10.5pt}
+ .paper h3{margin-top:3pt}
+ .tags{display:block;line-height:1.65}
+ .tag{display:inline;border:0;padding:0;font:10pt "Liberation Serif",Georgia,"Times New Roman",serif;white-space:normal}
+ .tag:not(:last-child)::after{content:" · ";white-space:pre}
+ a{color:#000!important;text-decoration:none}
+ #education{break-inside:auto}
+}
+@media print{
+ body.photonics{font-size:9.5pt;line-height:1.2}
+ .photonics .entry ul{font-size:9.5pt;line-height:1.2}
+ .photonics .resume-print-header{margin-bottom:9pt;padding-bottom:6pt}
+ .photonics .resume-summary{margin-bottom:9pt;padding-bottom:7pt}
+ .photonics h3{margin-top:5pt}
+ .photonics .entry{padding-bottom:3pt}
+ .photonics .resume-section{margin-bottom:7pt}
+ .photonics .paper{margin-top:5pt;margin-bottom:8pt}
+}

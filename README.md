@@ -28,5 +28,3 @@ My earlier engineering experience includes UHF circuit design, AVR microcontroll
 - [Email](mailto:dayhoolengineering@gmail.com)
 - [GitHub](https://github.com/rezadtech)
 - [LinkedIn](https://www.linkedin.com/in/rezadayhool/)
-
-Website setup and publishing details are in [Instruction.md](Instruction.md).
